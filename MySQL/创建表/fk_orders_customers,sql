@@ -1,3 +1,0 @@
-alter table orders 
-add constraint fk_orders_customers
-foreign key(cust_id) references customers(cust_id);
