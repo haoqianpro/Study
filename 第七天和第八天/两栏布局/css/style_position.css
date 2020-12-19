@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+.left {
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+.right {
+    width: 70%;
+    height: 200px;
+    margin-left: 30%;
+    background-color: aquamarine;
+}

@@ -1,0 +1,11 @@
+.left {
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.right {
+    height: 200px;
+    margin-right: 200px;
+    background-color: antiquewhite;
+}

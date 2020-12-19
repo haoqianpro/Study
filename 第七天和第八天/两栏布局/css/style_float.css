@@ -1,0 +1,16 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+.left {
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: antiquewhite;
+}
+.right {
+    width: 70%;
+    height: 200px;
+    margin-left: 30%;
+    background-color: aqua;
+}
