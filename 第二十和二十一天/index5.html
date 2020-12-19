@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .box {
+                width: 480px;
+                height: 480px;
+                background: url("./erik_ce204002.jpg") no-repeat left top;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+        <script>
+            const box = document.querySelector(".box");
+            let topP = 0;
+            setInterval(function () {
+                box.style.backgroundPositionY = -topP + "px";
+                if (topP + 480 >= 8160) {
+                    topP = 0;
+                } else {
+                    topP += 480;
+                }
+            }, 100);
+        </script>
+    </body>
+</html>
